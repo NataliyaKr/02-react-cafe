@@ -40,7 +40,6 @@ function App() {
     <>
       <div className={css.app}>
         <CafeInfo />
-        <CafeInfo />
         <VoteOptions
           onVote={handleVote}
           onReset={resetVotes}
